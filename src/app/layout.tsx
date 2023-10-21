@@ -23,7 +23,7 @@ export default function RootLayout({
           <ClientWrapper>
             <div className="flex min-h-screen">
               <Sidebar />
-              <div className="w-[80%">
+              <div className="w-[80%]">
                 <Header />
                 <div className="bg-gray-200 w-full min-h-screen p-6">
                   {children}
