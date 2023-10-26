@@ -25,9 +25,7 @@ export default function RootLayout({
               <Sidebar />
               <div className="w-[80%]">
                 <Header />
-                <div className="bg-gray-200 w-full min-h-screen p-6">
-                  {children}
-                </div>
+                <div className=" w-full p-6">{children}</div>
               </div>
             </div>
           </ClientWrapper>

@@ -1,3 +1,4 @@
+import { MembersArea } from "./HeaderElements/MembersArea";
 import { Searchbar } from "./HeaderElements/Searchbar";
 
 export const Header = () => {
@@ -8,14 +9,7 @@ export const Header = () => {
       </h1>
       <Searchbar />
       <div className="flex items-center space-x-4">
-        <div className="flex">
-          <div className="p-4 rounded-md bg-green-400 ml-[-0.4rem]"></div>
-          <div className="p-4 rounded-md bg-yellow-400 ml-[-0.4rem]"></div>
-          <div className="p-4 rounded-md bg-green-400 ml-[-0.4rem]"></div>
-          <div className="p-2 rounded-md bg-yellow-400 ml-[-0.4rem] text-[14px] leading-[171.429%] font-medium text-[#2D3036]">
-            +11
-          </div>
-        </div>
+        <MembersArea />
 
         <p className="leading-[162.5%] font-medium text-[#2D3036]">
           14 Members

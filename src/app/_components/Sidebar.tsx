@@ -5,7 +5,7 @@ import {
   BellIcon,
   ChevronDownIcon,
   ChatBubbleBottomCenterTextIcon,
-  ClipboardDocumentListIcon,
+  DocumentTextIcon,
 } from "@heroicons/react/24/outline";
 
 export const Sidebar = () => {
@@ -41,7 +41,7 @@ export const Sidebar = () => {
         </div>
 
         <div className="flex space-x-3 text-black font-medium items-center">
-          <ClipboardDocumentListIcon width={20} />
+          <DocumentTextIcon width={20} />
           <span className="w-[75%]">Files</span>
           <ChevronDownIcon width={20} />
         </div>
