@@ -1,0 +1,1 @@
+export { MemberIcon } from "./MemberIcon";
